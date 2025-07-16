@@ -2,7 +2,7 @@ resource "azurerm_resource_group" "terra" {
   name     = "terra"
   location = "East US"
 }
-resource "azurerm_resource_group" "storeterra" {
+resource "azurerm_resource_group" "storesterra" {
     name     = "example-resources"
     location = "East US"
 }
