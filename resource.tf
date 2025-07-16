@@ -4,11 +4,11 @@ resource "azurerm_resource_group" "terra" {
 }
 resource "azurerm_resource_group" "storeterra" {
     name     = "example-resources"
-    location = "West US"
+    location = "East US"
 }
  
 resource "azurerm_storage_account" "saterra" {
-    name                     = "terrastorage007"
+    name                     = "storageterrahk07"
     resource_group_name      = azurerm_resource_group.storeterra.name
     location                 = azurerm_resource_group.storeterra.location
     account_tier             = "Standard"
